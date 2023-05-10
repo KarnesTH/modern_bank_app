@@ -17,7 +17,7 @@ const styles = {
   marginY: "sm:my-16 my-6",
 };
 
-export const layout = {
+const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
@@ -27,4 +27,4 @@ export const layout = {
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
 
-export default styles;
+export { styles, layout };
